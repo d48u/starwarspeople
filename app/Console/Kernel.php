@@ -24,8 +24,9 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {
-        // $schedule->command('inspire')
-        //          ->hourly();
+        // uncomment when cyclical synchronization is required
+        // $schedule->command('get:people')
+        //          ->dailyAt('01:00');
     }
 
     /**
