@@ -52,6 +52,10 @@ vendor/bin/phpunit
 ```
 
 ## API
+**Note:** no CORS
+
+[Run in Postman](https://documenter.getpostman.com/view/9284827/SVzxagP1?version=latest)
+
 
 ### Register
 
@@ -117,6 +121,7 @@ POST `api/v1/people/person`
 ```
 Accept	application/json
 Authorization	Bearer {token}
+Content-Type    application/x-www-form-urlencoded
 ```
 
 **Body formdata example**
