@@ -8,6 +8,27 @@ https://swapi.co/ The Star Wars API
 
 ## Install
 
+```
+composer install
+```
+
+## .env
+
+Set
+```
+DB_CONNECTION=sqlite
+```
+
+Set
+```
+DB_DATABASE={your_path}/database/database.sqlite 
+```
+
+or comment the DB_DATABASE
+```
+#DB_DATABASE=laravel
+```
+
 1. Create database
 ```
 touch database/database.sqlite
