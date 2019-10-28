@@ -1,5 +1,13 @@
 
-# Star Wars People
+# Star Wars People API
+
+**Recruitment task**
+
+Your task is to:
+- placing the Laravel application instance,
+- query https://swapi.co/ to download 100 people and save to the database,
+- issuing an endpoint that will allow you to download the selected person by their 'name',
+- verifying that the API questioner is using the correct token.
 
 https://swapi.co/ The Star Wars API
 
